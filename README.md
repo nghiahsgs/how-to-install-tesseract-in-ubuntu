@@ -16,7 +16,7 @@ tesseract tesseract_inputs/example_01.png stdout
 ```
 filename = 'cell_publisher.png'
 text = pytesseract.image_to_string(Image.open(filename))
-os.remove(filename)
+#os.remove(filename)
 print(text)
 ```
 
